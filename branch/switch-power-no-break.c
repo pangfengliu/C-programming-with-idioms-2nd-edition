@@ -1,0 +1,20 @@
+#include <stdio.h>
+main()
+{
+  int base, power, exponent;
+  scanf("%d%d", &exponent, &base);
+  switch (exponent) {
+  case 1:
+    power = base;
+    break;
+  case 2:
+    power = base * base;
+    /* no break here */
+  case 3:
+    power = base * base * base;
+    break;
+  default:
+    power = 0;
+  }
+  printf("%d\n", power);
+}
