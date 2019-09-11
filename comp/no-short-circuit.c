@@ -7,8 +7,7 @@ main()
   int k = 3, l = 4;
   k = i;
   l = j;
-  if (k > 0 || l > 0) {
-    printf("%d\n", k);
-    printf("%d\n", l);
-  }
+  printf("%d\n", (k > 0 || l > 0));
+  printf("%d\n", k);
+  printf("%d\n", l);
 }

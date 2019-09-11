@@ -2,7 +2,6 @@
 void printMatrix(int a[4][3], int i, int j)
 {
   printf("a[%d][%d] = %d\n", i, j, a[i][j]);
-  return;
 }
 int main(void)
 {
